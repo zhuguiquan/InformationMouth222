@@ -24,6 +24,7 @@ import java.util.List;
 
 public class MainActivity extends BaseActivity {
 //我添加了一行代码
+    //我添加了一行代码
     private ImageView imageView;
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -37,6 +38,7 @@ public class MainActivity extends BaseActivity {
         titleList.add("首页");
         titleList.add("热点");
         titleList.add("北京");
+        
 
         //A卷，三个页面都一样
         HomeFragment homeFragment = new HomeFragment();
