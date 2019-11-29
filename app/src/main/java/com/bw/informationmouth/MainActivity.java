@@ -11,6 +11,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -23,7 +24,6 @@ import java.util.List;
 
 public class MainActivity extends BaseActivity {
 
-
     private ImageView imageView;
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -33,6 +33,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initData() {
+        Log.e("TAG", "initData  =======");
         titleList.add("首页");
         titleList.add("热点");
         titleList.add("北京");
